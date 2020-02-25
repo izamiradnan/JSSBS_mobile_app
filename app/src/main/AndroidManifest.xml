@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jssbs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="UiTM Jasin E-Shopping"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Meeting.MeetingActBuyer"></activity>
+        <activity android:name=".Meeting.UpdateMeetingActivity" />
+        <activity android:name=".Meeting.MeetingAct" />
+        <activity android:name=".Meeting.ViewMeetingActivity" />
+        <activity android:name=".Item.DetailActivityBuyer" />
+        <activity android:name=".TestDate" />
+        <activity android:name=".Meeting.SetMeetingActivity" />
+        <activity android:name=".Item.DetailActivity" />
+        <activity android:name=".Item.UpdateItemActivity" />
+        <activity android:name=".Main.MainActivityAdmin" />
+        <activity android:name=".User.DeleteUserActivity" />
+        <activity android:name=".Item.ViewItemActivity" />
+        <activity android:name=".Item.AddItemActivity" />
+        <activity android:name=".User.AdminViewUserActivity" />
+        <activity android:name=".User.UpdateActivity" />
+        <activity android:name=".Item.ItemActivity" />
+        <activity android:name=".User.ViewActivity" />
+        <activity android:name=".RegisterLogin.RegisterActivity" />
+        <activity android:name=".Main.MainActivity" />
+        <activity android:name=".RegisterLogin.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

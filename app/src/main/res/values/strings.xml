@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Jssbs</string>
+
+    <string name="register">REGISTER</string>
+    <string name="name">Name :</string>
+    <string name="Name">Enter your name</string>
+    <string name="price">Price : RM</string>
+
+    <string-array name="Semester">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Meeting_Place">
+        <item>Cafe Kuliah</item>
+        <item>Cafe Kolej</item>
+        <item>Library</item>
+        <item>Unit Kesihatan</item>
+        <item>Pusat Islam</item>
+        <item>Pusat Persatuan Pelajar</item>
+    </string-array>
+
+    <string-array name="Level">
+        <item>Diploma</item>
+        <item>Degree</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_user_main">UserMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
